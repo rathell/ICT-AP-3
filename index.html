@@ -163,6 +163,17 @@
       transition: transform 0.3s ease;
     }
 
+        .ninth-img {
+      position: absolute;
+      top: 160px;
+      left: 120px;
+      width: 200px;
+      border-radius: 10px;
+      z-index: 2;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+      transition: transform 0.3s ease;
+    }
+
     
     .first-img:hover,
     .third-img:hover,
@@ -170,10 +181,19 @@
     .fifth-img:hover,
     .sixth-img:hover,
     .seventh-img:hover,
-    .eighth-img:hover {
+    .eighth-img:hover,
+    .ninth-img:hover {
     
       transform: scale(1.05);
     }
+
+  #myVideo {
+    position: absolute;
+    top: 730px;
+    left: 700px;
+  }
+</style>
+
   </style>
 
       <meta charset="UTF-8">
@@ -186,6 +206,7 @@
 </head>
 
 <body>
+
 
   <audio controls style="position: absolute; top: 620px; left: 20px;">
     <source src="Ai no Jikken.mp3" type="audio/mpeg">
@@ -207,6 +228,10 @@
   </div>
 
 
+<video id="myVideo" width="640" height="480" controls>
+  <source src="x2mate.com-Blue Archive - Mel Live2D-(1080p60).mp4" type="video/mp4">
+</video> 
+
   <div class="image-container">
     <img src="4 sets of yes king.png" class="first-img" />
   </div>
@@ -217,6 +242,7 @@
   <img src="AAAAAAAAAA.png" class="third-img" />
   <img src="KARISUMA IN DA HOUSE.png" class="seventh-img" />
   <img src="Sigma.png" class="eighth-img" />
+    <img src="sora.png" class="ninth-img" />
   
   
 
